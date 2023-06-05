@@ -2,20 +2,11 @@ mat-sidenav {
     width: 280px;
     border-right: none;
     text-align: center;
+    background-color: #8378f5;
 }
 
 mat-sidenav-container {
     height: calc(100vh - 65px);
-    width: 100% !important;
-    
-}
-
-mat-drawer-backdrop {
-    width: 100% !important;
-}
-
-section {
-    width: 100% !important;
 }
 
 .avatar {
@@ -39,8 +30,5 @@ section {
 
 mat-divider {
     margin: 20px 0px;
-    background-color: #3c3636;
+    background-color: #fff;
 }
-
-
-  
