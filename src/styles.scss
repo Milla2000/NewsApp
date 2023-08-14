@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+// @use "angular/material" as mat;
+// @include mat.core();
+// $primary: mat.define-palette(mat.$indigo-palette, 500, 100, 900);
+// $accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+// $warn: mat.define-palette(mat.$red-palette);
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html, body { height: 100%; width: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+//@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
